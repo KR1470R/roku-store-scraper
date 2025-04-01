@@ -1,8 +1,12 @@
 {
   "name": "roku-store-scraper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Roku Store Scrapper for fetching all useful data from app page",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KR1470R/roku-store-scraper.git"
+  },
   "scripts": {
     "test": "mocha --timeout 8000"
   },
