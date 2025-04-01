@@ -1,6 +1,6 @@
 {
   "name": "roku-store-scraper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Roku Store Scrapper for fetching all useful data from app page",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,6 @@
   "dependencies": {
     "axios": "^1.8.4",
     "memoizee": "^0.4.17",
-    "querystring": "^0.2.1",
     "ramda": "^0.30.1"
   },
   "devDependencies": {
