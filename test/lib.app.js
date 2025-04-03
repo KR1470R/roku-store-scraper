@@ -1,7 +1,7 @@
 'use strict';
 
-const assert = require('chai').assert;
-const store = require('../index');
+import { assert } from 'chai';
+import store from '../index.js';
 
 const validApp = {
   appId: '53d2dd2504402eec1bc49ad74daf2e90:a13d7afc25f9a0a2db48abf783f2a46e',

@@ -1,11 +1,12 @@
 'use strict';
 
-const R = require('ramda');
-const memoizee = require('memoizee');
-const constants = require('./lib/constants');
+import * as R from 'ramda';
+import * as memoizee from 'memoizee';
+import * as  constants from './lib/constants.js';
+import app from './lib/app.js';
 
 const methods = {
-  app: require('./lib/app'),
+  app,
 };
 
 function memoized(opts) {
@@ -19,4 +20,4 @@ function memoized(opts) {
   return Object.assign({}, constants, R.map(doMemoize, methods));
 }
 
-module.exports = Object.assign({memoized}, constants, methods);
+export default Object.assign({memoized}, constants, methods);

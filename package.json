@@ -1,6 +1,6 @@
 {
   "name": "roku-store-scraper",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Roku Store Scrapper for fetching all useful data from app page",
   "main": "index.js",
   "repository": {
@@ -10,6 +10,7 @@
   "scripts": {
     "test": "mocha --timeout 8000"
   },
+  "type": "module",
   "author": "KR1470R",
   "license": "MIT",
   "keywords": [
